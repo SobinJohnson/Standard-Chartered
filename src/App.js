@@ -4,8 +4,8 @@ import MainComponent from "./MainComponent";
 import bg from "./images/bg.png";
 function App() {
   return (
-    <div className="">
-      <img src={bg} className="" alt="Background"></img>
+    <div className="w-screen">
+      <img src={bg} className="w-full h-screen" alt="Background"></img>
     </div>
   );
 }
