@@ -13,7 +13,7 @@ function App() {
       <div className=" grid grid-cols-2 absolute inset-0">
         <div>
           <div className=" text-white pl-16 pt-72 ">
-            <h1 className="font-semibold text-6xl">Lorem Ipsum</h1>
+            <h1 className="font-semibold text-6xl">KYC BOT</h1>
             <h2 className=" pt-10 text-xl p">
             Introducing our revolutionary KYC bot – the ultimate solution for swift and hassle-free online verifications! 
             Say goodbye to long wait times and paperwork. 
