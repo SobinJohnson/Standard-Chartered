@@ -3,6 +3,7 @@ import logo1 from "./images/logo.png";
 import "./App.css";
 import MainComponent from "./MainComponent";
 import bg from "./images/bg.png";
+import ChatBox from "./ChatBox";
 function App() {
   return (
     <div className="absolute inset-0">
@@ -20,7 +21,9 @@ function App() {
             </h2>
           </div>
         </div>
-        <div>h</div>
+        <div>
+          <ChatBox></ChatBox>
+        </div>
       </div>
     </div>
   );
