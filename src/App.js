@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import MainComponent from './MainComponent';
-
-
+import logo from "./logo.svg";
+import "./App.css";
+import MainComponent from "./MainComponent";
+import bg from "./images/bg.png";
 function App() {
   return (
-    <div className="App">
-       <h1>Azure Form Recognizer Demo</h1>
-      <MainComponent />
+    <div className="">
+      <img src={bg} className="" alt="Background"></img>
     </div>
   );
 }
