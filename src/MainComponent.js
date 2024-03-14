@@ -5,7 +5,7 @@ import FileInput from './FileInput';
 import { AzureKeyCredential, DocumentAnalysisClient } from '@azure/ai-form-recognizer';
 import { BlobServiceClient } from '@azure/storage-blob';
 
-const MainComponent = () => {
+const MainComponent = ({ onDocumentAnalyzed }) => {
   const webcamRef = useRef(null);
   const [file, setFile] = useState(null);
   const [capturedImage, setCapturedImage] = useState(null);
@@ -59,7 +59,7 @@ const MainComponent = () => {
       const {
         documents: [result],
       } = await poller.pollUntilDone();
-
+      onDocumentAnalyzed(result)
       // Handle the result based on your application's requirements
       console.log(result);
     } catch (error) {
@@ -93,7 +93,7 @@ const MainComponent = () => {
 };
 
   return (
-    <div>
+    <div className='bg-white'>
       <Webcam 
         audio={false}
         ref={webcamRef}
@@ -102,7 +102,7 @@ const MainComponent = () => {
         videoConstraints={{ width: 1280, height: 720 }}
       />
       <button onClick={capturePhoto}>Capture Photo</button>
-      {capturedImage && <img src={capturedImage} alt="Captured"         className='w-80 h-40 rounded-lg border-4'
+      {capturedImage && <img src={capturedImage} alt="Captured" className='w-80 h-40 rounded-lg border-4'
  />}
       <FileInput onFileChange={onFileChange} />
       <button onClick={analyzeDocument}>Analyze Document</button>
