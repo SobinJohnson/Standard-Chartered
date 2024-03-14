@@ -21,7 +21,7 @@ function App() {
             </h2>
           </div>
         </div>
-        <div>
+        <div className="h-screen p-10"> 
           <ChatBox></ChatBox>
         </div>
       </div>

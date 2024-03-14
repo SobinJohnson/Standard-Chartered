@@ -77,7 +77,7 @@ const ChatBox = () => {
   };
 
   return (
-    <div className="h-screen w-[420px] border-4 bg-gray-100 flex flex-col justify-end">
+    <div className="h-full rounded-2xl w-[420px] border-4 ml-40 bg-gray-100 flex flex-col justify-end">
       <div className="flex flex-col flex-grow p-4">
         {messages.map((message, index) => (
           <div key={index} className={`flex justify-${message.sender === 'user' ? 'end' : 'start'} mb-2`}>
