@@ -15,10 +15,8 @@ function App() {
           <div className=" text-white pl-16 pt-72 ">
             <h1 className="font-semibold text-6xl">Lorem Ipsum</h1>
             <h2 className=" pt-10 text-xl p">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-              dicta minus molestiae vel beatae natus eveniet ratione temporibus
-              aperiam harum alias officiis assumenda officia quibusdam deleniti
-              eos cupiditate dolore doloribus!
+            Introducing our revolutionary KYC bot – the ultimate solution for swift and hassle-free online verifications! 
+            Say goodbye to long wait times and paperwork. 
             </h2>
           </div>
         </div>
