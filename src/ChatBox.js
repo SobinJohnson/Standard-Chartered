@@ -18,9 +18,11 @@ const ChatBox = () => {
     { type: "text", text: "To begin with, could you provide me with your name?" },
     { type: "text", text: "Hey there, can you tell me your date of birth? (dd/mm/yyyy)" },
     { type: "text", text: "Now, your address as well..." },
+    { type: "text", text: "What is your Aadhaar number?" }, // Added Aadhaar number question
     { type: "info", text: "Now, you will have to show your document through the webcam for verification. When you are ready, click on the capture button to capture your document and upload it." },
     { type: "info", text: "Please wait a moment, your verification is in progress." }
   ];
+  
 
   useEffect(() => {
     if (currentQuestionIndex < questions.length) {
@@ -32,7 +34,7 @@ const ChatBox = () => {
       if (currentQuestion.type === "options") {
         setOptions(currentQuestion.options);
       }
-      if (currentQuestionIndex === 3) {
+      if (currentQuestionIndex === 4) {
         setShowCapturePhoto(true);
       }
     }
@@ -67,7 +69,7 @@ const ChatBox = () => {
       if (currentQuestion.type === "options") {
         setOptions(currentQuestion.options);
       }
-      if (currentQuestionIndex === 3) {
+      if (currentQuestionIndex === 4) {
         setShowCapturePhoto(true);
       }
     }
