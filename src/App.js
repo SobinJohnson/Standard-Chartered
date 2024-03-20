@@ -9,7 +9,6 @@ function App() {
     <div className="absolute inset-0">
       <img src={bg} className="w-full h-full object-cover" alt="Background" />
       <div className="absolute inset-0 flex  items-left">
-        <img src={logo1} className="h-24 " alt="Logo" />
       </div>
       <div className=" grid grid-cols-2 absolute inset-0">
         <div>
