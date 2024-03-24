@@ -1,5 +1,4 @@
 # KYC BOT
-by LightHouse Labs
 
 ## Introduction:
 
