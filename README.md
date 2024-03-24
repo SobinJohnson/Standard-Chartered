@@ -19,5 +19,4 @@ By utilizing Azure services, KYC Bot not only streamlines the KYC process but al
 
 [KYC-Bot Demo Video](https://www.youtube.com/watch?v=QctIwN5ejOY&ab_channel=SobinJohnson)
 
-  <img width="600" alt="Screenshot 2024-03-14 at 9 18 55 PM" src="https://github.com/SobinJohnson/Standard-Chartered/assets/97503796/530e7944-dd86-4d0e-a94c-65cb54e86872">
-  <img width="600" alt="Screenshot 2024-03-14 at 9 22 16 PM" src="https://github.com/SobinJohnson/Standard-Chartered/assets/97503796/e9532526-c7b4-4bbc-8c3f-e3cad1913302">
+  <img width="600" alt="Screenshot 2024-03-14 at 9 18 55 PM" src="https://github.com/SobinJohnson/KYC-bot/assets/103770437/5e323104-e4b8-4a29-b53b-8ac90ddd1968">
