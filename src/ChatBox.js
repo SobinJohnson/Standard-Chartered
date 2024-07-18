@@ -115,8 +115,9 @@ const ChatBox = () => {
   };
 
   return (
-    <div className="h-full rounded-2xl w-[420px] border-4 ml-40 bg-gray-100 flex overflow-hidden flex-col justify-end">
-      <div className="flex flex-col flex-grow p-4">
+    <div className="h-full sm:rounded-2xl sm:w-[420px] sm:pt-8 border-4 sm:ml-40 bg-gray-100 flex overflow-hidden flex-col justify-end">
+        <h1 className="  block sm:hidden text-center pt-10 text-xl font-bold opacity-40">KYC Bot</h1>
+      <div className="flex flex-col flex-grow overflow-scroll w-full overflow-x-hidden p-4">
         {messages.map((message, index) => (
           <div
             key={index}
